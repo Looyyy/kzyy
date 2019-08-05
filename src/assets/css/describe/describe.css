@@ -1,0 +1,64 @@
+.van-swipe img {
+  width: 100%;
+  height: 230px; }
+
+.describe {
+  margin: 15px 15px; }
+
+.price {
+  height: 50px;
+  background-color: #F3F3F3;
+  padding: 5px 15px; }
+  .price .oldPrice {
+    line-height: 50px;
+    margin: 0 20px;
+    color: red; }
+  .price .nowprice {
+    text-decoration: line-through; }
+
+.specification {
+  height: 50px;
+  background-color: #CFCFCF;
+  margin-top: 15px;
+  padding: 5px 15px; }
+  .specification .weight {
+    line-height: 50px;
+    margin: 0 20px; }
+  .specification .check_box {
+    line-height: 50px;
+    margin-top: 3px;
+    float: right;
+    font-size: 24px;
+    font-weight: 700; }
+
+.imgTitle {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #F3F3F3;
+  border-bottom: 1px solid #ccc;
+  font-size: 0;
+  padding-bottom: 5px; }
+  .imgTitle h5 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px; }
+  .imgTitle img {
+    width: 100%;
+    height: 400px; }
+
+.purchase {
+  border-top: 2px solid #ccc;
+  display: inline;
+  padding-bottom: 15px; }
+  .purchase .van-button {
+    margin-top: 10px;
+    width: 111px;
+    height: 40px;
+    float: right;
+    margin: 5px 20px;
+    background-color: red;
+    border: 0;
+    font-size: 16px;
+    border-radius: 5px; }
+
+/*# sourceMappingURL=describe.css.map */

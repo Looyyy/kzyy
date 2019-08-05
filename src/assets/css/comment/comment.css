@@ -1,0 +1,39 @@
+.foo_box {
+  margin-top: 5px;
+  border: 2px solid red; }
+
+.content_box {
+  padding: 10px 20px;
+  display: flex; }
+  .content_box .psonImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; }
+  .content_box .contentBoy {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc; }
+  .content_box .userTem {
+    text-align: left;
+    font-size: 14px; }
+  .content_box .contentNum {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 12px; }
+  .content_box .goodNum {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    flex: 1;
+    margin-top: 20px;
+    margin-right: 20px; }
+  .content_box img {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px; }
+  .content_box .van-cell-group {
+    border: none; }
+
+/*# sourceMappingURL=comment.css.map */

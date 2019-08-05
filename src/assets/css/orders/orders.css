@@ -1,0 +1,64 @@
+.van-nav-bar {
+  background-color: #fff; }
+
+.van-nav-bar .van-icon {
+  color: #000; }
+
+.van-button--primary {
+  color: #fff;
+  background-color: #1AAD19;
+  border: 1px solid #1AAD19;
+  border-radius: .6em; }
+
+.van-button--small {
+  font-size: 16px; }
+
+.order_boxes {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh; }
+  .order_boxes .order_card {
+    background-color: #f2f2f2;
+    margin: 1em 0; }
+    .order_boxes .order_card .contain {
+      width: 94%;
+      margin: 0 auto; }
+      .order_boxes .order_card .contain .card_shop {
+        padding: .6em 0;
+        font-size: 18px; }
+      .order_boxes .order_card .contain .card_one {
+        display: flex; }
+        .order_boxes .order_card .contain .card_one .card_img img {
+          width: 160px; }
+        .order_boxes .order_card .contain .card_one .card_text {
+          flex: 2;
+          margin-left: .6em;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+          .order_boxes .order_card .contain .card_one .card_text .card_title {
+            font-size: 14px;
+            width: 70%; }
+          .order_boxes .order_card .contain .card_one .card_text .card_minbox {
+            display: flex; }
+            .order_boxes .order_card .contain .card_one .card_text .card_minbox .card_des {
+              flex: 1;
+              font-size: 14px;
+              width: 70%;
+              color: #6C6C6C; }
+            .order_boxes .order_card .contain .card_one .card_text .card_minbox .card_num {
+              color: #6C6C6C; }
+            .order_boxes .order_card .contain .card_one .card_text .card_minbox .card_price {
+              font-weight: bold;
+              font-size: 18px;
+              flex: 1;
+              color: #F55B61; }
+            .order_boxes .order_card .contain .card_one .card_text .card_minbox .card_state {
+              color: #ff9920; }
+      .order_boxes .order_card .contain .card_btn {
+        padding: .6em 0;
+        float: right; }
+      .order_boxes .order_card .contain .clear {
+        clear: both; }
+
+/*# sourceMappingURL=orders.css.map */

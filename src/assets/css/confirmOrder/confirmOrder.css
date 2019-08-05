@@ -1,0 +1,124 @@
+.van-nav-bar {
+  background-color: #fff; }
+
+.van-nav-bar .van-icon {
+  color: #000; }
+
+.van-button--normal {
+  padding: 0 20px;
+  font-size: 18px; }
+
+.confirm {
+  background-color: #fff;
+  width: 100%; }
+  .confirm .container {
+    width: 94%;
+    margin: 0 auto; }
+  .confirm .confirm_btn {
+    padding: 1em 0;
+    background-color: #F3F3F3; }
+    .confirm .confirm_btn .confirm_order {
+      margin: 0 auto;
+      width: 40%;
+      border-radius: .3em;
+      text-align: center;
+      background-color: #1AAD19; }
+      .confirm .confirm_btn .confirm_order span {
+        width: 100%;
+        color: #fff;
+        padding: .6em .3em;
+        display: inline-block; }
+  .confirm .confirm_pay {
+    padding: 1em 0;
+    background-color: #fff; }
+    .confirm .confirm_pay .confirm_paybox {
+      display: flex; }
+      .confirm .confirm_pay .confirm_paybox .pay_text {
+        flex: 5; }
+      .confirm .confirm_pay .confirm_paybox .pay_wx {
+        display: flex; }
+        .confirm .confirm_pay .confirm_paybox .pay_wx img {
+          width: 30px; }
+        .confirm .confirm_pay .confirm_paybox .pay_wx span {
+          padding-left: 1em; }
+  .confirm .confirm_shop {
+    background-color: #CECECE; }
+    .confirm .confirm_shop .shop_title {
+      margin-left: 3%; }
+      .confirm .confirm_shop .shop_title h1 {
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0;
+        padding: .8em 0; }
+    .confirm .confirm_shop .shop_box {
+      background-color: #F3F3F3;
+      display: flex;
+      padding: .8em 0; }
+      .confirm .confirm_shop .shop_box .box_img {
+        flex: 1;
+        margin-left: 3%; }
+        .confirm .confirm_shop .shop_box .box_img img {
+          width: 100%; }
+      .confirm .confirm_shop .shop_box .box_text {
+        flex: 2;
+        margin: 0 3% 0 3%; }
+        .confirm .confirm_shop .shop_box .box_text .box_textTitle {
+          font-size: 12px; }
+        .confirm .confirm_shop .shop_box .box_text .box_textNum {
+          padding: .8em 0;
+          color: #6C6C6C;
+          font-size: 12px; }
+          .confirm .confirm_shop .shop_box .box_text .box_textNum span {
+            display: inline-block;
+            float: right;
+            margin-right: 3%; }
+        .confirm .confirm_shop .shop_box .box_text .box_textPrice {
+          color: #F55B61; }
+      .confirm .confirm_shop .shop_box .box_edit {
+        margin-right: 3%;
+        font-size: 12px; }
+        .confirm .confirm_shop .shop_box .box_edit a {
+          color: #FFC446; }
+  .confirm .promotion {
+    background-color: #F3F3F3;
+    margin-top: .8em;
+    display: flex;
+    padding: .8em 0; }
+    .confirm .promotion .promotion_text {
+      flex: 1;
+      margin-left: 3%; }
+    .confirm .promotion .promotion_pricce {
+      text-align: right;
+      flex: 1;
+      margin-right: 3%; }
+  .confirm .paynum {
+    color: #6C6C6C;
+    font-size: 14px;
+    position: absolute;
+    right: 3%;
+    bottom: 96px; }
+    .confirm .paynum span {
+      color: #F55B61;
+      font-size: 18px; }
+  .confirm .submit_bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #CECECE;
+    position: fixed;
+    width: 100%;
+    bottom: 0; }
+    .confirm .submit_bar .submit_price {
+      flex: 1;
+      margin-left: 3%;
+      font-size: 16px; }
+      .confirm .submit_bar .submit_price span {
+        color: #F55B61;
+        font-size: 18px; }
+    .confirm .submit_bar .submit_btn {
+      flex: 1;
+      text-align: right;
+      font-size: 18px; }
+
+/*# sourceMappingURL=confirmOrder.css.map */

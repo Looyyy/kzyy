@@ -1,0 +1,46 @@
+.foo_box {
+    margin-top: 5px;
+    border: 2px solid red;
+}
+
+  .content_box {
+      padding: 10px 20px;
+      display: flex;
+      .psonImg{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+      }
+      .contentBoy {
+          flex: 6;
+          display: flex;
+          flex-direction: column;
+          margin-left: 10px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #ccc;
+      }
+      .userTem{
+          text-align: left;
+          font-size: 14px;
+      }
+      .contentNum {
+          text-align: left;
+          font-size: 14px;
+          margin-top: 12px;
+      }
+      .goodNum {
+          display: flex;
+          border-bottom: 1px solid #ccc;
+          flex: 1;
+          margin-top: 20px;
+          margin-right: 20px;
+      }
+       img {
+          width: 15px;
+          height: 15px;
+          margin-right: 6px;
+      }
+      .van-cell-group {
+        border: none;
+      }
+  }

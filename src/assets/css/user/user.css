@@ -1,0 +1,144 @@
+.contain {
+  width: 90%;
+  margin: 0 auto; }
+
+.van-overlay {
+  background: red; }
+
+.van-dialog__message {
+  font-size: 24px !important; }
+
+.data-v-73968b0a {
+  font-size: 2em !important; }
+
+h1 {
+  font-size: 20px; }
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px; }
+
+h3 {
+  margin: .3em 0;
+  font-weight: normal;
+  font-size: 14px;
+  color: #818181; }
+
+a {
+  color: #000; }
+
+.user_box {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 70px; }
+  .user_box .user_boxT {
+    display: flex;
+    align-items: center;
+    padding: 1.2em 0;
+    box-shadow: 0 0 10px #E5F2E5;
+    margin: 1.3em 0;
+    border-radius: .6em; }
+    .user_box .user_boxT .user_img {
+      flex: 1;
+      margin-left: .8em; }
+      .user_box .user_boxT .user_img img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%; }
+    .user_box .user_boxT .user_name {
+      flex: 3;
+      margin-left: 1em; }
+  .user_box .user_boxM {
+    display: flex;
+    align-items: center;
+    padding: 1.3em 0 1.6em 0;
+    border-bottom: 1px solid #CECECE;
+    text-align: center; }
+    .user_box .user_boxM .user_list {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      margin-right: 2em; }
+      .user_box .user_boxM .user_list .img {
+        flex: 1; }
+        .user_box .user_boxM .user_list .img img {
+          width: 30%; }
+      .user_box .user_boxM .user_list div {
+        font-size: 14px; }
+  .user_box .user_boxB {
+    margin: 2em 0;
+    position: relative; }
+    .user_box .user_boxB .user_del {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 999;
+      font-size: 1.5em; }
+    .user_box .user_boxB .user_info {
+      background-color: #fff;
+      border: 1px solid #CDCDCD;
+      position: relative; }
+    .user_box .user_boxB .user_text {
+      margin: 10px; }
+    .user_box .user_boxB .user_img {
+      position: absolute;
+      top: 1.2em;
+      right: 1.6em; }
+      .user_box .user_boxB .user_img img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%; }
+    .user_box .user_boxB .user_btn {
+      margin: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center; }
+      .user_box .user_boxB .user_btn .btn_share {
+        flex: 4;
+        display: flex; }
+        .user_box .user_boxB .user_btn .btn_share .btn_l {
+          background-color: #1AAD19;
+          display: flex;
+          align-items: center;
+          margin: 0 auto;
+          padding: .3em .8em;
+          color: #fff;
+          border-radius: .3em; }
+          .user_box .user_boxB .user_btn .btn_share .btn_l img {
+            width: 1em;
+            margin-right: .4em; }
+          .user_box .user_boxB .user_btn .btn_share .btn_l div {
+            display: inline-block; }
+      .user_box .user_boxB .user_btn .btn_line {
+        flex: 2; }
+  .user_box .share_boxes {
+    text-align: center; }
+    .user_box .share_boxes .share_box {
+      display: flex;
+      position: relative; }
+      .user_box .share_boxes .share_box .share {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0 2em; }
+        .user_box .share_boxes .share_box .share .share_wx {
+          flex: 1; }
+          .user_box .share_boxes .share_box .share .share_wx img {
+            width: 30%;
+            padding: 1em 0; }
+        .user_box .share_boxes .share_box .share .share_mp {
+          flex: 1; }
+          .user_box .share_boxes .share_box .share .share_mp img {
+            width: 30%;
+            padding: 1em 0; }
+    .user_box .share_boxes .share_canle {
+      border-top: 3px solid #bbb;
+      text-align: center;
+      padding: 1em 0;
+      font-size: 20px; }
+
+/*# sourceMappingURL=user.css.map */

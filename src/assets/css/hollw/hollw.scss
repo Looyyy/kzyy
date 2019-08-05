@@ -1,0 +1,454 @@
+#app {
+    margin-top: 0;
+    
+  }a {
+      color: #000;
+    }
+  .clearfix:after{
+        display: block;
+        content:'';
+        clear: both;
+        height:0;
+    }
+    .van-tabbar {
+      background-color: #D9D9D9;
+    }
+   
+  .tempBig{
+    .title {
+      font-size: 20px;
+    }
+    .login_box{
+      background-color: #fff;
+      border: 1px solid #E4F2E4;
+      margin: 3px 13px 13px 13px;
+      border-radius: 5px;
+      box-shadow: 0px -2px 0px 0px #E4F2E4,
+                  -2px 0px 0px 0px #E4F2E4,
+                  2px 0px 0px 0px  #E4F2E4,
+                  0px 2px 0px 0px #E4F2E4;
+      display: flex;
+    }
+    .login_left{
+      flex: 1;
+    }
+    .login_rigth{
+      flex: 1;
+    } 
+    .loginImg{
+      border-radius: 50%;
+      margin: 63px 50px;
+      width: 80px;
+      height: 80px;
+    }
+  
+    .content_text {
+      position: relative;
+      height: 10px;
+      font-size: 14px;
+      text-align: left;
+      line-height:0.9;
+      margin-top: 30px;
+    }.my_site {
+      line-height: 18px;
+    }
+     b{
+       font-size: 16px;
+    }
+    .card{
+        position: absolute;
+        top: 21px;
+        right: 21px;
+        .van-button__text{
+          color: #2EB42D;
+        }
+    }
+    .deposit_Tb {
+      font-size: 12px;
+      font-weight:700;
+      width: 75
+      px;
+      height: 29px;
+      line-height: 29px;
+      border-radius: 5px;
+  
+    }
+    .van-button--normal{
+      padding: 0 5px;
+    }
+    .call_play {
+        display: flex;
+    }
+    .share_box {
+        flex: 1;
+        text-align: center;
+    }
+    .address_box {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .share_Tb {
+      width: 130px;
+      height: 35px;
+      margin: 8px 15px 20px 10px;
+      line-height: 35px;
+      border-radius: 5px;
+      .van-button__text{
+        color: #2EB42D;
+      }
+    }
+    .address_Tb{
+      width: 150px;
+      height: 35px;
+      margin: 8px 10px 20px 15px;
+      line-height: 35px;
+      border-radius: 5px;
+      .van-button__text{
+      color: #fff;
+    }
+    }
+    .news_lis {
+      overflow-y: hidden;
+      flex-wrap: nowrap;
+      display: flex;
+      position: relative;
+    }
+    
+    .pos_box {
+      float: left;
+      height: 69px;
+      font-size: 14px;
+      margin-right: 12px;
+      width: 26px;
+      margin-left: 5px;
+      display: inline;
+      line-height: 22px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      text-align: center;
+      span {
+        line-height: 20px;
+      }
+    }
+     
+    .sile_box{
+      float: left;
+      font-size: 14px;
+      line-height: 8px;
+      margin-right: 10px;
+      white-space: nowrap;
+      border: 1px solid #ccc;
+      text-align: left;
+      border-radius: 5px;
+      margin-left: 5px;
+      text-indent: 5px;
+      flex: 1;
+      img {
+        width: 20px;
+        margin-top: 10px;
+        margin-left: 2px;
+      }
+    }
+    .wechat_box {
+      float: left;
+      font-size: 14px;
+      line-height: 22px;
+      margin-right: 10px;
+      white-space: nowrap;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: left;
+      margin-left: 5px;
+      padding: 1px;
+      span {
+        margin-right: 36px;
+      }
+      .tag-read {
+          height: 100%;
+          border: 0;
+          background-color: #fff;
+      }
+      img {
+        width: 22px;
+        height: 19px;
+        margin-left: 3px;
+      }
+    }
+    .phone_box {
+      float: left;
+      font-size: 14px;
+      line-height: 8px;
+      margin-right: 10px;
+      white-space: nowrap;
+      border: 1px solid #ccc;
+      text-align: left;
+      border-radius: 5px;
+      margin-left: 5px;
+      padding: 5px;
+      flex: 1;
+      img {
+        width: 16px;
+        height: 18px;
+        margin-top: 5px;
+        margin-left: 3px;
+      }
+    }
+    .mail_box {
+        float: left;
+        font-size: 14px;
+        line-height: 8px;
+        margin-right: 10px;
+        white-space: nowrap;
+        border: 1px solid #ccc;
+        text-align: left;
+        border-radius: 5px;
+        margin-left: 5px;
+        text-indent: 5px;
+        flex: 1;
+        img {
+          width: 20px;
+          height: 15px;
+          margin-top: 10px;
+          margin-left: 2px;
+        }
+      }
+    
+    .like_box{
+      margin: 30px 0;
+      display: flex;
+      width: 100%;
+      height: 72px;
+      background-color: #DFDEDE;
+    }
+    .like_left {
+      flex: 1;
+    }
+    .like_right{
+      flex: 1;
+    }
+    .smlaa_box{
+      background-color: #fff;
+      display: block;
+      border-radius: 50%;
+      width: 60px;
+      margin: 0 auto;
+      margin-top: 5px;
+      height: 60px;
+      font-size: 14px;
+      border: 1px solid rgba(187, 187, 187, 1);
+      img {
+        margin-left: 20px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .big_box{
+      background-color: #07C160;
+      display: block;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      margin: 0 auto;
+      margin-top: 5px;
+      color: #fff;
+      font-size: 14px;
+      border: 1px solid rgba(187, 187, 187, 1);
+    } .my_up{
+      display: block;
+      width: 25px;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+    .my_down {
+      display: inline-block;
+      margin-left: 16px;
+      margin-top: 18px;
+      text-align: center;
+    }
+    .numChind {
+      width: 320px;
+      height: 225px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+      .mainNum {
+        width: 100%;
+        text-align: center;
+  }
+    }
+                
+  
+    .herNum {
+      height: 40px;
+      span {
+        float: left;
+        font-size: 20px;
+      }
+      .close{
+        float: right;
+        font-size: 30px;
+      }
+      
+    }
+    .van-button--normal{
+      width: 83px;
+      height: 40px;
+      font-size: 14px;
+    }.van-button__text{
+      color: #000;
+    }
+     
+}  .van-button--normal {
+      margin-top: 35px;
+      width: 93px;
+      height: 50px;
+      font-size: 18px;
+      flex-wrap: 700;
+      margin-left: 16px;
+      border-radius: 5px;
+}
+ .personage {
+        width: 113px;
+        height: 34px;
+        background-color: #A6A5A5;
+        text-align: center;
+        margin-left: 10px;
+        line-height: 34px;
+        margin-bottom: 8px;
+    }
+    .personage_box{
+        padding: 0 10px 10px 10px;
+        margin: 10px;
+        
+        > p {
+          border-top: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          padding-top: 20px;
+          padding-bottom: 20px;
+            text-indent: 1em;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: left;
+        }
+        .foot_box {
+        }
+        .title_box {
+          line-height: 0px;
+            text-align: left;
+            margin-left: 8px;
+        }
+        .content_box {
+            padding-bottom: 10px;
+            display: flex;
+            .psonImg{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            .contentBoy {
+                flex: 6;
+                display: flex;
+                flex-direction: column;
+                margin-left: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #ccc;
+            }
+            .userTem{
+                text-align: left;
+                font-size: 14px;
+            }
+            .contentNum {
+                text-align: left;
+                font-size: 14px;
+                margin-top: 12px;
+            }
+            .goodNum {
+              display: flex;
+              border-bottom: 1px solid #ccc;
+              flex: 1;
+              margin-top: 20px;
+              margin-right: 20px;
+          }
+             img {
+                width: 15px;
+                height: 15px;
+                margin-right: 6px;
+            }
+            .van-cell-group {
+              border: none;
+            }
+        }
+        .remove {
+          display: block;
+          width: 70px;
+          height: 20px;
+          margin: 0 auto;
+            font-size: 14px;
+            color: #323131;
+            margin-top: 15px;
+        }
+        .input_conten {
+          display: inline-block;
+          width: 65%;
+            background-color: rgba(206, 198, 198, 1);
+            height: 40px;
+            margin-top: 20px;
+            border-radius: 5px
+            
+        }
+        .footLink {
+          flex: 6;
+          margin-left: 15px;
+        }
+        .content_foot{
+            padding-bottom: 30px;
+            display: flex;
+            padding-bottom: 50px;
+        }.sunImg{
+            height: 50px;
+            border-radius: 50%;
+            margin-top: 45px;
+        }
+        .publish {
+          font-size: 16px;
+          line-height: 38px;
+          margin-top: 21px;
+          float: right;
+          height: 38px;
+          width: 25%;
+          .van-button__text{
+            color: #fff;
+          }
+        }
+    }
+    .van-overlay {
+      z-index: 99999;
+      background-color: #fff !important;
+    }
+
+    // tab栏徽标
+    .icmp{
+      width: 21px;
+      height: 17px;
+      margin-left: 3px;
+      margin-bottom: 3px;
+    }
+    .icsc{
+      width: 21px;
+      height: 19px;
+      margin-left: 3px;
+      margin-bottom: 3px;
+    }
+    .icwd {
+      width: 19px;
+      height: 20px;
+      margin-left: 3px;
+      margin-bottom: 3px;
+    }
+    .van-tabbar-item{
+      span{
+        font-size: 14px;
+      }
+    }
